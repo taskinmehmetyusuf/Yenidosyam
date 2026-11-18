@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#101820">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="CARPLAY DRIVE 2.0" android:textColor="#FFFFFF"
+            android:textSize="26sp" android:textStyle="bold" android:paddingBottom="6dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Araç kontrol merkeziniz" android:textColor="#AFC2D2"
+            android:textSize="15sp" android:paddingBottom="24dp"/>
+        <Button android:id="@+id/mapsButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Navigasyonu Aç  •  Google Maps"/>
+        <Button android:id="@+id/youtubeButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="YouTube'u Aç"/>
+        <Button android:id="@+id/appsButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Telefon Uygulamalarına Dön"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="IPTV / M3U8" android:textColor="#FFFFFF" android:textSize="19sp"
+            android:textStyle="bold" android:paddingTop="22dp" android:paddingBottom="8dp"/>
+        <EditText android:id="@+id/streamUrl" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="https://.../playlist.m3u8"
+            android:inputType="textUri" android:singleLine="true"
+            android:textColor="#FFFFFF" android:textColorHint="#AFC2D2"/>
+        <Button android:id="@+id/iptvButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Yayını Uyumlu Oynatıcıda Aç"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Not: Bu sürüm telefon üzerinde çalışan bir araç başlatıcısıdır. Android Auto ekranına özel uygulama ve tam ekran yansıtma, Google'ın araç güvenliği ve uygulama kategorisi kurallarına tabidir."
+            android:textColor="#AFC2D2" android:textSize="12sp" android:paddingTop="24dp"/>
+    </LinearLayout>
+</ScrollView>
