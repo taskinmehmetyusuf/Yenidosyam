@@ -1,15 +1,5 @@
+
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
-android {
-    namespace = "com.carplaydrive.app"
-    compileSdk = 35
-    defaultConfig {
-        applicationId = "com.carplaydrive.app"
-        minSdk = 23
-        targetSdk = 35
-        versionCode = 2
-        versionName = "2.0"
-    }
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
 }
